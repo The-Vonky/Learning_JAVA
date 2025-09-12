@@ -1,4 +1,4 @@
-// Não da pra testar prr nenhuma se não tiver uma main, então... declara ela ai igual as outas.
+// Não da pra testar prr nenhuma se não tiver uma main, então... declara ela ai
 public class Main {
     
     /*

@@ -2,7 +2,7 @@
 
 //Primeiro vc declara a merda da classe que é o mesmo nome do arquivo que vc ta mexendo.
 
-import java.util.Stack; // Se não importar o bgl não funciona ne krl kkkkk
+import java.util.Stack; // Se não importar o bgl não funciona né krl kkkkk
 
 class Pilha {
 
@@ -24,7 +24,7 @@ class Pilha {
          * ALGUNS COMANDOS:
          * push() = coloca a parada em cima
          * pop() = pega a parada de cima
-         * peek() = olha qual a parada que tá em cima sem tirar
+         * peek() = olha qual é a parada que tá em cima, mas sem tirar de lá
         */
 
         
@@ -44,7 +44,7 @@ class Pilha {
         System.out.println(pilhaSanduba);
         System.out.println();
 
-        //Agora so o que ta em cima:
+        //Agora só o que ta em cima:
         System.out.println("Esse é o que tá no topo: " + pilhaSanduba.peek());
         System.out.println();
 
@@ -65,6 +65,33 @@ class Pilha {
 
         String itemTirado = pilhaSanduba.pop();
         System.out.println("Tiramos do topo: " + itemTirado);
+        System.out.println();
 
+        //Com isso a pilha fica assim:
+        System.out.println("Sandubão ficou assim: " + pilhaSanduba);
+        System.out.println();
+
+        //Impressionante demais essa cena cara :,)
+    
+        //Vamo ve qual é o topo agora
+        System.out.println("Esse é o novo topo da pilha Sandubão: " + pilhaSanduba.peek());
+        System.out.println();
+
+        //Enfia mais coisa na lista agora.
+        System.out.println("Adicionando mais itens: ");
+        pilhaSanduba.push("Maionese de Atum");
+        pilhaSanduba.push("Bufalo");
+
+        //Vemo vê como ficou
+        System.out.println("Pilha final: " + pilhaSanduba);
+
+        //Agora faz uma pilha nova.
+        Stack<String> pilhaFrutas = new Stack<>();
+
+        pilhaFrutas.push("Melancia");
+        pilhaFrutas.push("Uva");
+        pilhaFrutas.push("Banana");
+
+        System.out.println("Essa é a pilha de frutas UwU: " + pilhaFrutas);
     }
 }
