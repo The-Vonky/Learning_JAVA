@@ -5,7 +5,6 @@ import java.util.*;
 class Fila {
     public static void main(String[] args){
         
-
         /*
          * Alguns comandos í seu otário.
          * 
@@ -19,16 +18,24 @@ class Fila {
 
          //Agora vamos criar a fila, pode ser de qualquer merda.
 
-         Queue<String> filaPão = new LinkedList<>();
+         Queue<String> filaPao = new LinkedList<>();
         // (LinkedList é só o "tipo" de fila que vamos usar, relaxa)
 
         //Chegaram 3 pessoas na fila, lembra 'primeiro que chega é o primeiro que sai'
 
-        filaPão.add("Deywid"); //Chegou primeiro então é o primeiro da fila
-        filaPão.add("James");
-        filaPão.add("Jack");
+        filaPao.add("Deywid"); //Chegou primeiro então é o primeiro da fila
+        filaPao.add("James");
+        filaPao.add("Jack");
 
-        System.out.println("Essa é a nossa fila, olha que gracinha: " + filaPão);
+        System.out.println("Essa é a nossa fila, olha que gracinha: " + filaPao);
         System.out.println();
+
+        //Vamos remover o primeiro:
+        System.out.println("O Primeiro da fila é o " + filaPao.peek());
+        System.out.println();
+
+        //Vamos remove-lo
+        filaPao.poll();
+        System.out.println("Após remover o primeiro fica assim: " + filaPao);
     }
 }
