@@ -80,7 +80,7 @@ class Exercicio1_Pilha {
         System.out.println("Topo atual: " + pilhaLinguagens.peek());
         System.out.println();
     }
-}
+}l b x c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 // ========== EXERCÍCIO 2: FILA ==========
 class Exercicio2_Fila {
